@@ -116,11 +116,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
-        [
-            InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
-            )
-        ],
+        
     ]
     return buttons
 
